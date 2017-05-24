@@ -120,7 +120,7 @@ users = {
 # puts users["Erik"][:home_town] = "Edinburgh"
 
 # 8. Add a pet dog to Erik called "Fluffy"
-# puts users["Erik"][:pets]["dog"] = "Fluffy"
+# puts users["Erik"][:pets][:Fluffy] = "dog"
 
 # 9. Add yourself to the users hash
 # puts users["Ciaran"] = {}
