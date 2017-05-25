@@ -22,7 +22,7 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 # print lines.fetch(4)
 
 # 4. Work out sthe index position of 'Haymarket'
-# print lines[3]
+# print lines.index("Haymarket")
 
 # 5. Add 'Airport' to the start of the array
 # lines.unshift("Airport")
@@ -30,6 +30,8 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 
 # 6. Add 'York Place' to the end of the array
 # lines.push("York Place")
+# lines << "York Place"
+
 # print lines
 
 # 7. Remove 'Edinburgh Park' from the array using it's name
@@ -123,4 +125,11 @@ users = {
 # puts users["Erik"][:pets][:Fluffy] = "dog"
 
 # 9. Add yourself to the users hash
-# puts users["Ciaran"] = {}
+# ciaran_hash = {
+#   :twitter => "ciaran",
+#   :favourite_numbers => [9, 99, 19],
+#   :home_town => "Edinburgh",
+#   :pets => ":("
+# }
+
+# puts users["Ciaran"] = ciaran_hash
